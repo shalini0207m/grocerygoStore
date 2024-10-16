@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+  }
+  header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
+  }
+   /* Company Milestones Section */
+   .milestone {
+    background-color: #e9ecef;
+    padding: 60px 0;
+  }
+  .milestone h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .milestone-icon {
+    font-size: 2.5rem;
+    color: #28a745;
+    margin-bottom: 10px;
+  }
+  url(css) url(image) url(js) url(a) url(a.html) url(AboutUs.html) url(blog.css) url(blog.html) url(blogDetail.css) url(blogDetail.html) url(card.html) url(Cart.css) url(Cart.html) url(checkouts.css) url(Checkouts.html) url(contact.css) url(contact.html) url(cop2.css) url(cop3.css) url(cop3.html) url(coupn2.html) url(coupon.css) url(Coupon.html) url(discount) url(footer.css) url(footer.html) url(h2.html) url(ho.html) url(home.css) url(home.html) url(index.html) url(login.css) url(login.html) url(loginPage.html) url(profile.html) url(reg.html) url(register.2html) url(register.css) url(register.html) url(RegistrationPage.html) url(review.css) url(review.html) url(Shop.html) url(Shopdetail.css) url(ShopDetail.html) url(style.css) url(styles.css) url(Wishlist.css) url(Wishlist.html)
+  footer {
+    background-color: #f8f9fa;
+}
+
+h6 {
+    color: #2c3e50;
+}
+
+p, a {
+    color: #6c757d;
+}
+
+a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+ul.list-unstyled {
+    padding-left: 0;
+}
+
+ul.list-inline li a {
+    color: #2c3e50;
+    margin-right: 10px;
+}
+
+ul.list-inline li a:hover {
+    color: #007bff;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .text-right {
+        text-align: left;
+    }
+}

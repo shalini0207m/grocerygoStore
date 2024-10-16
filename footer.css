@@ -1,0 +1,39 @@
+footer {
+    background-color: #f8f9fa;
+}
+
+h6 {
+    color: #2c3e50;
+}
+
+p, a {
+    color: #6c757d;
+}
+
+a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+ul.list-unstyled {
+    padding-left: 0;
+}
+
+ul.list-inline li a {
+    color: #2c3e50;
+    margin-right: 10px;
+}
+
+ul.list-inline li a:hover {
+    color: #007bff;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .text-right {
+        text-align: left;
+    }
+}

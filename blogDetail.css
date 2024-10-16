@@ -1,0 +1,89 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.blog-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2, h4 {
+    font-weight: bold;
+    color: #333;
+}
+
+h5 {
+    margin-top: 20px;
+    color: #555;
+}
+
+.card {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
+  }
+   /* Company Milestones Section */
+   .milestone {
+    background-color: #e9ecef;
+    padding: 60px 0;
+  }
+  .milestone h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .milestone-icon {
+    font-size: 2.5rem;
+    color: #28a745;
+    margin-bottom: 10px;
+  }
+  footer {
+    background-color: #f8f9fa;
+}
+
+h6 {
+    color: #2c3e50;
+}
+
+p, a {
+    color: #6c757d;
+}
+
+a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+ul.list-unstyled {
+    padding-left: 0;
+}
+
+ul.list-inline li a {
+    color: #2c3e50;
+    margin-right: 10px;
+}
+
+ul.list-inline li a:hover {
+    color: #007bff;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .text-right {
+        text-align: left;
+    }
+}

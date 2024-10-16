@@ -1,0 +1,77 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .table td,
+  .table th {
+    vertical-align: middle;
+  }
+  
+  .table img {
+    max-width: 70px;
+  }
+  
+  h2 {
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .btn-sm {
+    padding: 0.3rem 0.6rem;
+  }
+.navbb{
+  background-color:whitesmoke;
+}
+/* Company Milestones Section */
+.milestone {
+  background-color: #e9ecef;
+  padding: 60px 0;
+}
+.milestone h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.milestone-icon {
+  font-size: 2.5rem;
+  color: #28a745;
+  margin-bottom: 10px;
+}
+footer {
+  background-color: #f8f9fa;
+}
+
+h6 {
+  color: #2c3e50;
+}
+
+p, a {
+  color: #6c757d;
+}
+
+a:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+ul.list-unstyled {
+  padding-left: 0;
+}
+
+ul.list-inline li a {
+  color: #2c3e50;
+  margin-right: 10px;
+}
+
+ul.list-inline li a:hover {
+  color: #007bff;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .text-right {
+      text-align: left;
+  }
+}
